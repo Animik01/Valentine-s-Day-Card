@@ -1,9 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 
 }
+
 #container {
     display: flex;
     justify-content: center;
@@ -15,10 +16,10 @@
 .book {
     position: relative;
     border-radius: 10px;
-    width: 210px;
-    height: 300px;
+    width: 310px;
+    height: 400px;
     /* Internal Image, upload your couple image here */
-    background-image: url(tiger.jpg);
+    background-image: url(cyberpunk.avif);
     background-size: cover;
     background-position: center;
     background-size: 97%;
@@ -62,10 +63,9 @@
 .heart {
     position: relative;
     background-color: #e60303;
-    height: 60px;
-    width: 60px;
-    top: 180px;
-    left: 75px;
+    height: 75px;
+    width: 75px;
+    margin: 240px auto;
     transform: rotate(-45deg);
     animation: .8s beat infinite;
 }
@@ -75,8 +75,8 @@
     content: "";
     background-color: #e60303;
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 75px;
+    width: 75px;
     position: absolute;
 }
 
@@ -92,13 +92,13 @@
 
 .smile {
     position: absolute;
-    width: 30px;
-    height: 15px;
+    width: 43px;
+    height: 23px;
     background-color: #333;
     z-index: 1;
     border-radius: 0 0 100px 100px;
-    top: 200px;
-    left: 90px;
+    top: 275px;
+    left: 134px;
     overflow: hidden;
 }
 
@@ -109,8 +109,8 @@
     width: 20px;
     height: 20px;
     background-color: #030202;
-    top: 5px;
-    left: 5px;
+    top: 4px;
+    left: 10px;
 }
 
 .eyes {
@@ -120,8 +120,8 @@
     width: 10px;
     height: 10px;
     z-index: 1;
-    top: 185px;
-    left: 120px;
+    top: 250px;
+    left: 170px;
     box-shadow: -40px 0 #333;
     transform-origin: 50%;
     animation: close 2s infinite;
@@ -157,9 +157,9 @@
 .notes {
     position: absolute;
     color: #ff9595;
-    font-size: 30px;
+    font-size: 50px;
     top: 40px;
-    width: 200px;
+    width: 100%;
     text-align: center;
     font-family: 'Protest Revolution', sans-serif;
 }
@@ -174,13 +174,17 @@
 
 .notes:before {
     content: "Valentine's";
-    top: 30px;
+    top: 53px;
     color: #d04e4e;
+    width: 100%;
+    text-align: center;
     font-family: 'Protest Riot', sans-serif;
 }
 
 .notes:after {
     content: "day!";
-    top: 60px;
+    top: 100px;
+    width: 100%;
+    text-align: center;
     font-family: 'Protest Riot', sans-serif;
 }
