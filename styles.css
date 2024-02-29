@@ -21,8 +21,9 @@
     /* Internal Image, upload your couple image here */
     background-image: url(IMG_20230924_154620.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: 97%;
+    /* background-size: 100%; */
     -webkit-box-shadow: 1px 1px 12px black;
     box-shadow: 1px 1px 12px black;
     -webkit-transform: preserve-3d;
